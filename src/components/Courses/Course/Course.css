@@ -1,0 +1,61 @@
+.course {
+  height: 430px;
+}
+.course img {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.course-category,
+.course-instructor,
+.course-duration,
+.course-price,
+.course-price-free,
+.rating,
+.users-icon {
+  font-size: 14px;
+}
+.course-level {
+  background-color: #e7e8ff;
+  color: #8086fe;
+  width: max-content;
+  padding: 3px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.course-category {
+  color: #0071dc;
+}
+.course-title {
+  font-size: 16px;
+}
+.course-duration {
+  background-color: #ffe4e8;
+  color: #ff4a60;
+  width: max-content;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.course-price,
+.course-price-free {
+  font-weight: 600;
+  width: max-content;
+  padding: 6px 18px;
+  border-radius: 30px;
+}
+.course-price {
+  background-color: #f7c04d;
+  color: #000;
+}
+.course-price-free {
+  background-color: #6cbd7e;
+  color: #fff;
+}
+.rating {
+  color: #f7c04d;
+}
+.users-icon {
+  color: #0071dc;
+}

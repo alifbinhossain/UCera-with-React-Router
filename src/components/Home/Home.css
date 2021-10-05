@@ -1,0 +1,86 @@
+.header-home {
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 42, 68, 0.8),
+      rgba(29, 42, 68, 0.8)
+    ),
+    url(../../images/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #fff;
+}
+.header-info {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  line-height: 1.6;
+}
+.header-info h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.header-info p {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.courses-home h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #1d2a45;
+  padding: 0 !important;
+}
+.line {
+  display: block;
+  margin: -15px auto 30px;
+  border: none;
+  border-bottom: 2px solid #1d2a45;
+  width: 250px;
+  opacity: 1;
+}
+.alert-home {
+  background-color: #f7d919;
+  color: #1d2a45;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alert-home h2 {
+  font-weight: 600;
+}
+.full-width {
+  width: 50% !important;
+}
+
+@media (max-width: 668px) {
+  .header-info {
+    top: 50%;
+    left: 50%;
+  }
+  .header-info h1 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .header-info p {
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  .header-info button {
+    font-size: 14px;
+  }
+  .alert-home h2 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 80%;
+  }
+
+  .full-width {
+    width: 80% !important;
+  }
+}

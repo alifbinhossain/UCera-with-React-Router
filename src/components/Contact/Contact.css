@@ -1,0 +1,32 @@
+.contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(../../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact-heading-box {
+  text-align: center;
+  padding: 60px 0 40px;
+  color: #fff;
+}
+.contact-heading-box p {
+  font-size: 14px;
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 668px) {
+  .contact-heading-box {
+    padding: 80px 0 40px;
+  }
+  .contact-heading-box p {
+    width: 80%;
+  }
+  .sm-mb {
+    margin-bottom: 10px;
+  }
+}

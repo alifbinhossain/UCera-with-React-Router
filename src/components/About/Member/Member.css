@@ -1,0 +1,16 @@
+.team-member {
+  text-align: center;
+}
+.team-member img {
+  display: inline-block;
+  margin: 0 auto;
+  height: 350px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+.team-member h6 {
+  font-weight: 600;
+}
+.team-member p {
+  font-size: 14px;
+}
