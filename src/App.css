@@ -16,3 +16,11 @@ main {
   overflow: hidden;
   pointer-events: none;
 }
+.animation-box {
+  min-height: 100vh;
+  background-color: #1d2a45;
+  color: #f7d919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

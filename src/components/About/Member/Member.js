@@ -6,8 +6,8 @@ const Member = (props) => {
   const { member } = props;
   const { email, jobTitle, fullName, img } = member;
   return (
-    <Card className="team-member border-0" data-aos="fadeInUp">
-      <div className="img-box">
+    <Card className="team-member border-0">
+      <div className="img-box" data-aos="fadeInUp">
         <Card.Img variant="top" src={img} />
         <p className="hide-email">email: {email}</p>
       </div>
