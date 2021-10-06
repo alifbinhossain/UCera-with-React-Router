@@ -20,7 +20,7 @@ const Home = () => {
   };
 
   return (
-    <main>
+    <main data-aos="fade">
       <section className="home">
         <div className="header-home">
           <div className="header-info">

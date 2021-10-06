@@ -4,7 +4,7 @@ import { Col, Form, Row, Button } from "react-bootstrap"; //importing BOOTSTRAP
 
 const Contact = () => {
   return (
-    <main className="contact">
+    <main className="contact" data-aos="fade">
       <div className="container">
         <div className="contact-heading-box">
           <h2>We’re Here to Help You</h2>

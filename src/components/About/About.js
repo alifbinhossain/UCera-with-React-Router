@@ -13,7 +13,7 @@ const About = () => {
       .then((data) => setMembers(data));
   }, []);
   return (
-    <main>
+    <main data-aos="fade">
       <section className="about">
         <div className="about-header">
           <h1 data-aos="fade-up">
